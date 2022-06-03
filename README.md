@@ -9,7 +9,7 @@ The repository is composed of four maven modules
 1. `parent-pom/`
    - A parent pom that includes the configuration shared by all other modules
       - surefire is configured to run tests on the module path
-      - Has a profile called "mutation" that will enable pitest
+      - Has a profile called "mutate" that will enable pitest
 2. `service/` 
    - Exports a single service interface `operation.Operation`
 3. `service-impl/`
